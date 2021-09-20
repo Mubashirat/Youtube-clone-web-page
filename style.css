@@ -1,0 +1,164 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0; 
+  
+}
+/*header starts*/
+.main_body{
+    display: flex;
+    background-color: #f9f9f9f9;
+    display: flex;
+}
+.header{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 10px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    flex-direction: row;
+    align-items: center;
+}
+.header_left{
+    display: flex;
+    margin-left: 0;
+    align-items: left;
+}
+.header_right{
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    align-items: center;
+
+}
+.header_right img{
+    color: #606060;
+    margin: 13px;
+    margin-right: 20px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.header_search{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.header_search input{
+    outline: none;
+    padding: 5px;
+    width: 30em;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.searchicon{
+    padding: 8px;
+    border: 1px solid grey;
+    background-color: #f8f8f8;
+    padding-right: 25px;
+    padding-left: 25px;
+    outline: none;
+    cursor: pointer;
+}
+.searchicon i{
+    color: #606060;
+    font-size: 15px;
+}
+.header_mic{
+    border-radius: 50%;
+    background-color: lightgray;
+    height: 40px;
+    width: 40px;
+    align-items: center;
+}
+/*header ends*/
+/*side bar starts*/
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 5px;
+    width: 15%;
+    margin-top: 50px;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+}
+.sidebar_section{
+    display: flex;
+    justify-content: left;
+    background-color: white;
+    width: 100%; 
+    cursor: pointer;
+}
+.sidebar_section:hover{
+    background-color: #e5e5e5ab;
+}
+.sidebar_section img{
+    width: 24px;
+    color: #606060;
+    margin: 10px;
+    margin-left: 20px;
+    margin-right: 25px;
+}
+.sidebar_section h4{
+    font-size: 15px;
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+.sidebarsection_hr{
+   height: 1px;
+   border-top: 1px solid rgba(128,128,128,0.397); 
+   width: 100%;
+   margin: 10px;
+}
+.videos{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 267px;
+    margin-top: 100px;
+    margin-right: 950px;   
+}
+
+.video{
+    display: flex;
+    flex-direction: column;
+
+}
+.video img{
+    padding: 13px;
+    width: 280px;
+    height: 190px;
+}
+.videodetails img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.videodetails{
+    display: flex;
+    font-family: 'Roboto';
+
+}
+.videocolumn{
+    display: flex;
+}
+.channelname{
+    color: #606060;
+}
+.videoviewers{
+    color: #606060;
+}
+
+/*video section ends*/
+
+
